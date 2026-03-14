@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NAVALHA — Barbearia</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Navalha & Co.</div>
+    <ul class="nav-links">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="https://wa.me/5511995345568" target="_blank" class="nav-cta">Agendar</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-line"></div>
+      <div class="hero-line"></div>
+      <div class="hero-line"></div>
+    </div>
+    <div class="hero-number">01</div>
+
+    <div class="hero-content">
+      <div class="hero-tag">
+        <div class="hero-tag-line"></div>
+        <span>Est. 2018 — São Paulo, SP</span>
+      </div>
+
+      <h1 class="hero-title">
+        A arte do<br>
+        <em>corte</em><br>
+        perfeito.
+      </h1>
+
+      <p class="hero-subtitle">
+        Onde tradição encontra precisão. Cada corte é uma expressão única do seu estilo.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#agendar" class="btn-primary">Agendar Horário</a>
+        <a href="#servicos" class="btn-ghost">Ver Serviços</a>
+      </div>
+    </div>
+
+    <div class="scroll-ind">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-num">2.4K+</div>
+      <div class="stat-label">Clientes Ativos</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">7</div>
+      <div class="stat-label">Anos de Experiência</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">4.9★</div>
+      <div class="stat-label">Avaliação Média</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Barbeiros Especialistas</div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="servicos">
+    <div class="section-header">
+      <div>
+        <div class="section-tag">
+          <div class="section-line"></div>
+          <span>O que fazemos</span>
+        </div>
+        <h2 class="section-title">Nossos<br><em>Serviços</em></h2>
+      </div>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-num">01</div>
+        <span class="service-icon">✂️</span>
+        <div class="service-name">Corte Clássico</div>
+        <p class="service-desc">Técnica tradicional com acabamento impecável. Fade, degradê ou clássico — seu estilo,
+          nossa precisão.</p>
+        <div class="service-price"><sup>R$</sup> 55</div>
+      </div>
+
+      <div class="service-card reveal" style="transition-delay:0.1s">
+        <div class="service-num">02</div>
+        <span class="service-icon">🪒</span>
+        <div class="service-name">Barba Completa</div>
+        <p class="service-desc">Modelagem, toalha quente e finalização com navalha. Uma experiência de barbearia
+          autêntica.</p>
+        <div class="service-price"><sup>R$</sup> 45</div>
+      </div>
+
+      <div class="service-card reveal" style="transition-delay:0.2s">
+        <div class="service-num">03</div>
+        <span class="service-icon">👑</span>
+        <div class="service-name">Combo Premium</div>
+        <p class="service-desc">Corte + barba + hidratação capilar. O pacote completo para quem leva o visual a sério.
+        </p>
+        <div class="service-price"><sup>R$</sup> 120</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section">
+    <div class="gallery-header reveal">
+      <div class="section-tag">
+        <div class="section-line"></div>
+        <span>Nosso trabalho</span>
+      </div>
+      <h2 class="section-title">A arte em<br><em>evidência</em></h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal tall">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&q=80&fit=crop" alt="Corte degradê"
+          loading="lazy">
+        <div class="gallery-overlay"><span>Degradê Skin</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=80&fit=crop" alt="Barba modelada"
+          loading="lazy">
+        <div class="gallery-overlay"><span>Barba Modelada</span></div>
+      </div>
+      <div class="gallery-item reveal" style="transition-delay:0.1s">
+        <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&q=80&fit=crop" alt="Corte clássico"
+          loading="lazy">
+        <div class="gallery-overlay"><span>Corte Clássico</span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="section-header-center reveal">
+      <div class="section-tag" style="justify-content:center;">
+        <div class="section-line"></div>
+        <span>O que dizem</span>
+        <div class="section-line"></div>
+      </div>
+      <h2 class="section-title" style="text-align:center;margin-top:12px;">Clientes que<br><em>confiam</em></h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Melhor barbearia que já fui. O ambiente é incrível, o barbeiro entendeu exatamente o que
+          eu queria no primeiro corte. Não vou mais em nenhum outro lugar."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">RM</div>
+          <div>
+            <div class="testi-name">Rafael Mendes</div>
+            <div class="testi-role">Cliente há 3 anos</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:0.1s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Fui indicado por um amigo e me surpreendi. O combo de corte e barba ficou perfeito. O
+          atendimento é diferenciado — parece que você é o único cliente do dia."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">LC</div>
+          <div>
+            <div class="testi-name">Lucas Carvalho</div>
+            <div class="testi-role">Cliente há 1 ano</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:0.2s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Ambiente premium, produto de qualidade e resultado que durou semanas. Vale cada centavo.
+          Já indiquei pra todo mundo do trabalho."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">GB</div>
+          <div>
+            <div class="testi-name">Gustavo Braga</div>
+            <div class="testi-role">Cliente há 2 anos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="sobre">
+    <div class="about-visual reveal">
+      <div class="about-box-main">
+        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=900&q=80&fit=crop" alt="Barbearia"
+          style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      <div class="about-badge">
+        <div class="about-badge-num">7+</div>
+        <div class="about-badge-text">anos de tradição</div>
+      </div>
+    </div>
+
+    <div class="about-text reveal" style="transition-delay:0.2s">
+      <div class="section-tag">
+        <div class="section-line"></div>
+        <span>Nossa história</span>
+      </div>
+      <h2 class="section-title">Mais que um<br><em>corte.</em></h2>
+      <p class="about-desc">
+        A Navalha & Co. nasceu da paixão por barbearia clássica e da vontade de oferecer uma experiência diferente —
+        onde cada detalhe importa.
+      </p>
+      <p class="about-desc">
+        Nossos barbeiros são especialistas certificados com mais de 5 anos de experiência cada. Aqui você não é só mais
+        um cliente.
+      </p>
+
+      <div class="about-features">
+        <div class="about-feature">
+          <div class="about-feature-dot"></div>
+          <span>Produtos profissionais importados</span>
+        </div>
+        <div class="about-feature">
+          <div class="about-feature-dot"></div>
+          <span>Ambiente climatizado e exclusivo</span>
+        </div>
+        <div class="about-feature">
+          <div class="about-feature-dot"></div>
+          <span>Agendamento online 24 horas</span>
+        </div>
+        <div class="about-feature">
+          <div class="about-feature-dot"></div>
+          <span>Estacionamento gratuito</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking" id="agendar">
+    <span class="booking-eyebrow">Reserva</span>
+    <h2 class="booking-title">Pronto para o<br><em>próximo nível?</em></h2>
+    <p class="booking-sub">Escolha seu horário. A cadeira é sua.</p>
+
+    <div class="booking-options">
+      <a href="https://wa.me/5511995345568" target="_blank" class="booking-btn booking-btn-primary">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.532 5.855L.054 23.446a.75.75 0 0 0 .916.916l5.591-1.478A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.666-.523-5.183-1.435l-.371-.22-3.853 1.018 1.018-3.853-.22-.371A9.956 9.956 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+        </svg>
+        WhatsApp
+      </a>
+      <a href="https://wa.me/5511995345568" target="_blank" class="booking-btn booking-btn-secondary">
+        📅 Agendar Online
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Navalha & Co.</div>
+    <div class="footer-info">
+      <div class="footer-address">Rua das Palmeiras, 142 — Pinheiros, SP</div>
+      <div class="footer-hours">Seg–Sáb: 9h às 20h &nbsp;|&nbsp; Dom: 10h às 16h</div>
+    </div>
+    <div class="footer-copy">© 2026 Navalha & Co. Barbearia</div>
+  </footer>
+
+  <script>
+    // Custom cursor
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursorRing');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      cursor.style.transform = `translate(${mx - 4}px, ${my - 4}px)`;
+    });
+
+    function animateRing() {
+      rx += (mx - rx) * 0.12;
+      ry += (my - ry) * 0.12;
+      ring.style.transform = `translate(${rx - 18}px, ${ry - 18}px)`;
+      requestAnimationFrame(animateRing);
+    }
+    animateRing();
+
+    document.querySelectorAll('a, button, .service-card').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        cursor.style.transform += ' scale(2)';
+        ring.style.width = '60px';
+        ring.style.height = '60px';
+      });
+      el.addEventListener('mouseleave', () => {
+        ring.style.width = '36px';
+        ring.style.height = '36px';
+      });
+    });
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      });
+    }, { threshold: 0.15 });
+
+    reveals.forEach(el => observer.observe(el));
+
+    // Counter animation
+    function animateCount(el, target, suffix = '') {
+      let current = 0;
+      const step = target / 60;
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) { current = target; clearInterval(timer); }
+        el.textContent = Math.floor(current) + suffix;
+      }, 16);
+    }
+  </script>
+</body>
+
+</html>
